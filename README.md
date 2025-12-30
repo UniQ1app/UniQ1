@@ -1,37 +1,83 @@
-# UNIQ — Universal Network for Intelligence & Qualification
+# UNIQ — Universal Network for Information & Qualification
 
-**Phase 1 — Web Application (Non-Blockchain)**
+UNIQ is a merit-based application layer built on top of the Qubic ecosystem.
 
-UNIQ is a merit-based intelligence ecosystem built on top of Qubic.
-This repository contains the full **Phase 1 Web Application**, including:
+Its purpose is to educate, qualify, structure, and reward contributors who actively strengthen the clarity, adoption, and long-term resilience of Qubic.
 
-- Public Intelligence Hub
-- Learning Academy
-- Structured Social System
-- Governance Interface (off-chain, visual only)
-- Merit & Identity Profiles
-- AI-powered truth, summarization, and anti-FUD tools
+UNIQ is not a social network.
+UNIQ is not a media platform.
+UNIQ is not a speculative product.
 
-⚠️ **IMPORTANT**
-- This repository contains **NO blockchain logic**
-- No token creation
-- No smart contracts
-- No staking logic on-chain
-
-Blockchain logic is handled **exclusively** in:
-👉 `UNIQ-Phase2-Qubic`
+UNIQ is a Merit Engine.
 
 ---
 
-## 🧠 Philosophy
+## Core Principles
 
-UNIQ is designed to:
-- Kill misinformation (FUD) through verified data
-- Reward competence, not noise
-- Separate learning from power
-- Build legitimacy before governance
-- Align humans, AI, and deterministic systems
+- Merit over money  
+- Contribution over status  
+- Validation over visibility  
+- Long-term alignment over speculation  
+
+Influence is earned through verified action, not capital.
 
 ---
 
-## 🗂 Repository Structure
+## Project Structure
+
+This repository contains **Phase 1** of the UNIQ project.
+
+### Phase 1 — Web Application (Off-chain)
+
+This phase is designed for **standard developers**  
+(No blockchain knowledge required)
+
+It includes:
+- A public Intelligence Hub (anti-FUD, information clarity)
+- An Academy (learning & qualification)
+- A structured Social layer (mentorship, Q&A)
+- A Governance interface (visual only, no on-chain power)
+- A Merit-based identity profile
+
+All logic in this repository is **off-chain**.
+
+---
+
+## Repository Architecture
+UniQ/
+├── frontend/     # Next.js web application
+├── backend/      # API & data services
+├── ai/           # AI behavior & logic specifications
+├── docs/         # Functional documentation
+└── README.md
+
+---
+
+## What This Repository Does NOT Contain
+
+- No token contracts
+- No staking logic
+- No governance execution
+- No blockchain interaction
+
+All blockchain-related logic belongs to **Phase 2** in a separate repository:
+`UNIQ-Phase2-Qubic`
+
+---
+
+## Who Should Work on This Repository
+
+✅ Frontend developers (React / Next.js)  
+✅ Backend developers (API, data handling)  
+✅ AI / data engineers  
+❌ Blockchain developers (not here)
+
+---
+
+## Status
+
+- Structure finalized
+- Aligned with UNIQ Whitepaper v2.0
+- Ready for incremental implementation
+
+This repository is the technical translation of the UNIQ vision for Phase 1.
