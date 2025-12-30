@@ -46,9 +46,13 @@ All logic in this repository is **off-chain**.
 ## Repository Architecture
 UniQ/
 ├── frontend/     # Next.js web application
+
 ├── backend/      # API & data services
+
 ├── ai/           # AI behavior & logic specifications
+
 ├── docs/         # Functional documentation
+
 └── README.md
 
 ---
